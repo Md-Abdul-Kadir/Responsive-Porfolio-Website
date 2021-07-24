@@ -1,0 +1,86 @@
+.font-all{
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: white;
+}
+.bg-w{
+    color: white;
+}
+/******** hero section style*******/
+
+.herotitle
+{
+    padding: 10%;
+}
+
+.hero{
+    background-image: url(img/bannerpro.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: repeat;
+    opacity: 100%;
+}
+.bg-chai{
+    background-color: rgb(57, 79, 90);
+}
+a{
+    color:white !important;
+
+}
+a:hover{
+    color:crimson !important;
+
+}
+.first-latter{
+    color: crimson;
+}
+.logo{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.hero-btn{
+    border: 3px solid crimson;
+    color: white;
+}
+.hero-btn a:hover{
+   color: white !important;
+}
+.hero-btn:hover{
+    background-color: crimson;
+    color: white;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+/********** services style *********/
+
+.services-item{
+    display: flex;
+    color: white;
+    width: 100%;
+}
+.item{
+   
+    width:25%;
+    border-radius: 20px;
+    background-image:linear-gradient(rgb(57, 79, 90),rgb(32, 26, 26));
+    
+}
+.fas{
+    font-size: 45px;
+    padding: 20px 0px;
+    color: rgb(5, 223, 251);
+
+}
+
+/************ contact srction style  **********/
+.conatct-item{
+    width: 33%;
+}
+/************* footer section style  **********/
+
+footer{
+    background-color: rgb(57, 79, 90);
+    color: white;
+
+}
