@@ -74,9 +74,13 @@ a:hover{
 }
 
 /************ contact srction style  **********/
+
+
 .conatct-item{
     width: 33%;
 }
+
+
 /************* footer section style  **********/
 
 footer{
@@ -84,6 +88,26 @@ footer{
     color: white;
 
 }
+.fab{
+    font-size: 25px;
+    padding: 20px 0px;
+    color: rgb(0, 81, 92);
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+.fas-extra{
+    font-size: 25px;
+    padding: 20px 0px;
+    color: rgb(0, 81, 92);
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    
+
+}
+/************Responsive mobile screen*******/
 
 @media only screen and (max-width:576px) {
 
@@ -92,6 +116,9 @@ footer{
         background-image: none;
         background-color:rgb(57, 79, 90) ;
         opacity: 100%;
+    }
+    h1{
+        font-size: 55px !important;
     }
     /* service section */
     
@@ -110,6 +137,22 @@ footer{
     section{
         margin: 0%;
     }
-    
+     /**** about section ********/
+    .grid-about{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    /* contact section */
+     .grid-contact{
+        display: grid;
+        grid-template-columns: 1fr;
+
+     }
+     .conatct-item{
+        width:100%;
+       
+    }
+
    
 }
